@@ -1,4 +1,4 @@
 Copy file
 
-> cp file target_dir
+> cp backup.zip ../../var/www/html/
 
