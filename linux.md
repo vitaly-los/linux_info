@@ -28,6 +28,11 @@ Creating alias
 
 > alias ls='ls --color'
 
+Check all alias 
+
+> alias
+
+
 
 ### Mix 
 
@@ -38,3 +43,19 @@ Data Dublicator in linux
 Erase all data on flash drive or hard disk
 
 > dd if=/dev/zero of=/dev/sdb1 bs=512k
+
+Start apache 
+
+> sudo /etc/init.d/apache2 start
+
+Check for user info
+
+> id; groups
+
+Add youself for www-data group
+
+> sudo gpasswd -a vitaly:www-data
+
+Change owner of folder
+
+> sudo shown -R vitaly:www-data .
