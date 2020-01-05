@@ -5,6 +5,7 @@ Copy file
 Create file and add immedially add some text to new file. CTRL + D return to prompt
 
 > cat > new.txt
+> cat *.mp3 > new.mp3 
 
 Create multiply files
 
