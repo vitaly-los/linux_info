@@ -26,3 +26,13 @@ Creating alias
 
 > alias ls='ls --color'
 
+
+### Mix 
+
+Data Dublicator in linux
+
+> dd if=/dev/sba of=/dev/sdb1 bs=512k
+
+Erase all data on flash drive or hard disk
+
+> dd if=/dev/zero of=/dev/sdb1 bs=512k
