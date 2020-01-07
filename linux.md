@@ -32,6 +32,10 @@ Check all alias
 
 > alias
 
+Locale file 
+
+> locate file
+
 
 
 ### Mix 
