@@ -36,6 +36,10 @@ Locale file
 
 > locate file
 
+Curl bring header
+
+> curl --head 127.0.0.1
+
 
 
 ### Mix 
