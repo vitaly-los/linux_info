@@ -3,6 +3,23 @@ shell> mysql -h localhost -u root -p         # if mysql on localhost, so -h host
 
 Enter password: ********
 
+Create user
+
+> create user 'username' identified by 'pass';
+
+Create database
+
+> create database db_name;
+
+Add user's privileges
+
+> grand all on db_name.* to username@localhost identified by 'pass';
+
+Check ownership of database
+
+> select user from mysql.user where db='DB_NAME';
+
+
 
 ' - in SQL standart ' is used only for string, " for everything else
 
