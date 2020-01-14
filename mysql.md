@@ -1,42 +1,71 @@
 
 shell> mysql -h localhost -u root -p         # if mysql on localhost, so -h host can leave
+
 Enter password: ********
 
 
 ' - in SQL standart ' is used only for string, " for everything else
+
 NULL have a special value that mean no value
 
 CURRENT_DATE 				// return current time
-now()					//  Повертає сьогоднішню дату ##  where day_id > now() - interval 1 month
+
+now()					//  Повертає сьогоднішню дату   where day_id > now() - interval 1 month
+
 subtime()				//
+
 concat()				//	Adds two or more strings together
+
 count()					//  Count how many rows are in table 
+
 distinct()				// SELECT DISTINCT(row_id) Повертає лише унікальні значення без одинакових записів
+
 avg(					// Вираховує середнє значення усіх записів у рядку
+
 format()				// Округлює значення запису
+
 max()					// Показує максимальне значенння запису у рядку
+
 min()					// Показує мінімальне значенння запису у рядку
+
 sum()					// Додає усі запису у рядку
+
 dayname()				// Назва дня
+
 having					// Заміняє в запиті where, яке має конфлікт з count()
+
 between					// between '2000.01.01' and '2010.01.01'
+
 in()					// Редагування, виддалення, коли передача параметрів йде через ARRAY
+
 LEFT(`table`, 50)			//Number of returned symvols from table
+
 abs()					// повертає абсолютне значення
+
 ceil()					// округлює до більшого
+
 floor()					// округлює до меншого
+
 round ()				// округлює по математичним правилам
+
 rand ()					// return pseudo-random number
+
 truncate(1.2222, 2)		// обрізає число до кількості заданих символів
+
 LENGTH	                // Returns the length of a string (in bytes)
+
 CHAR_LENGTH             // Returns the length of a string 
+
 SUBSTRING               // Extracts some characters from a string
 
 
 
 INSERT INTO table_name() VALUES ();
+
 SELECT column_name FROM table_name WHERE condition
+
 UPDATE table_name SET row_name = 'value', row_name1 = 'value1' WHERE condition
+
 DELETE FROM table_name WHERE condition
 
 ALTER TABLE table_name ADD column_name varchar(255);
@@ -67,7 +96,7 @@ A SQL trigger is a set of SQL statements stored in the database catalog. A SQL t
 The GROUP BY statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns.
 
 
-# Transaction are designed for bunch of queries, and if one failed, all transaction will be canceled. 
+### Transaction are designed for bunch of queries, and if one failed, all transaction will be canceled. 
 START TRANSACTION;
 SELECT @A:=SUM(salary) FROM table1 WHERE type=1;
 UPDATE table2 SET summary=@A WHERE type=1;
