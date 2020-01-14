@@ -25,9 +25,9 @@ Check ownership of database
 
 NULL have a special value that mean no value
 
-CURRENT_DATE 				// return current time
+CURRENT_DATE 				> return current time
 
-now()					//  Повертає сьогоднішню дату   where day_id > now() - interval 1 month
+now()					>  Повертає сьогоднішню дату   where day_id > now() - interval 1 month
 
 subtime()				//
 
