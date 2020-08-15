@@ -40,6 +40,17 @@ Curl bring header
 
 > curl --head 127.0.0.1
 
+$ping 1.1.1.1 > ping.txt &
+
+$ jobs
+
+[1]+ Running ping 192.168.10.56 > ping.log &
+
+$ fg1  
+
+> & send jobs in background.  
+
+
 
 
 ### Mix 
