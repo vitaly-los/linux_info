@@ -40,15 +40,19 @@ Curl bring header
 
 > curl --head 127.0.0.1
 
-$ping 1.1.1.1 > ping.txt &
+& send jobs in background Command jobs checks for running process
 
-$ jobs
+> ping 1.1.1.1 > ping.txt &
+
+> jobs
 
 [1]+ Running ping 192.168.10.56 > ping.log &
 
-$ fg1  
+> fg1  
 
-> & send jobs in background.  
+Tr translate or replace characters
+
+> tr '[a-z]' '[A-Z] < replace.txt
 
 
 
