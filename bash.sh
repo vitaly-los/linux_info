@@ -43,4 +43,6 @@ do
 echo here is an given params: $PARAMS
 done
 
+# {} using for range {min, max, step}
 
+# if var not declare as local in functions body, var is global
