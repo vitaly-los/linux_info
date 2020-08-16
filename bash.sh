@@ -32,8 +32,15 @@ echo $i
 let i++
 done
 
-
-
-
+# for loop 
+for ((i=0; i < 10; i++))
+do
+echo $i
+done
+# Another using for given arguments 
+for PARAMS
+do
+echo here is an given params: $PARAMS
+done
 
 
