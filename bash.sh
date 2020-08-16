@@ -19,3 +19,21 @@ if (( VAL < 10 ))
 then
 echo "value $VAL is less than ten"
 fi
+
+# For command use && or ||. && for and, || for or
+[[ -d $DIR ]] && ls "$DIR"
+
+
+# While loop
+i=0
+while (( i < 10 ))
+do
+echo $i
+let i++
+done
+
+
+
+
+
+
