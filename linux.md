@@ -36,6 +36,10 @@ Locale file
 
 > locate file
 
+Flags for find. mtime (Modification time), atime (Access time), ctime (Change time). -size size of file, -empty empty file of dir,
+
+> find /home -name '.*'
+
 Curl bring header
 
 > curl --head 127.0.0.1
