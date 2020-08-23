@@ -58,6 +58,9 @@ Tr translate or replace characters
 
 > tr '[a-z]' '[A-Z] < replace.txt
 
+ls -l long, t sort by time, --reverse for reverse sort, -s sort by size, -ls dirName info about directory
+
+> ls -lt --reverse
 
 
 
