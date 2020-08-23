@@ -1,3 +1,11 @@
+Whatis display one-line manual description. Uniq report or omit repeated lined, -d, --repeated only print duplicate lines
+
+> whatis uniq
+
+wc print newline, word, and byte counts for each file
+
+> wc file.txt
+
 Copy file
 
 > cp backup.zip ../../var/www/html/
