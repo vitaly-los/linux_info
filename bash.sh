@@ -44,7 +44,7 @@ do
 done
 
 # {} using for range {min, max, step}
-***echo a{A{1,2},B{3,4}}b***
+echo a{A{1,2},B{3,4}}b
 aA1b aA2b aB3b aB4b
 
 # if var not declare as local in functions body, var is global
