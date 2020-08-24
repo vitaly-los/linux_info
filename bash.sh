@@ -5,7 +5,7 @@
 # check if file exists. Flags for -d directory, -e file, -r readable, -W writable, -X executuble
 if [[ -e $FILE ]]
 then
-echo $FILE found
+    echo $FILE found
 fi
 
 # Flags for -eq equal, -lt less, -gt gtrater
@@ -46,5 +46,8 @@ done
 # {} using for range {min, max, step}
 echo a{A{1,2},B{3,4}}b
 aA1b aA2b aB3b aB4b
+
+# argument for cp, even if don't know where it is
+ls -l $(which cp)
 
 # if var not declare as local in functions body, var is global
