@@ -8,6 +8,7 @@ then
     echo $FILE found
 fi
 
+# locate file for given pattern
 FILE=foo.bar
 if [[$FILE == foo.* ]]; 
 then
