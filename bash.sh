@@ -8,16 +8,22 @@ then
     echo $FILE found
 fi
 
+FILE=foo.bar
+if [[$FILE == foo.* ]]; 
+then
+    echo "$FILE matched 'foo.*'"
+fi
+
 # Flags for -eq equal, -lt less, -gt gtrater
 if [[ $VAL -lt $MIN ]]
 then
-echo "value is less than min"
+    echo "value is less than min"
 fi
 
 # inside () no need for $ sign, only for $1, $#, $0
 if (( VAL < 10 ))
 then
-echo "value $VAL is less than ten"
+    echo "value $VAL is less than ten"
 fi
 
 # For command use && or ||. && for and, || for or
@@ -28,14 +34,14 @@ fi
 i=0
 while (( i < 10 ))
 do
-echo $i
-let i++
+    echo $i
+    let i++
 done
 
 # for loop 
 for ((i=0; i < 10; i++))
 do
-echo $i
+    echo $i
 done
 # Another using for given arguments 
 for PARAMS
