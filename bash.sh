@@ -58,3 +58,7 @@ aA1b aA2b aB3b aB4b
 ls -l $(which cp)
 
 # if var not declare as local in functions body, var is global
+
+#read reads a single line from standard input, read takes data from the terminal.
+# Because no variable names were specified, the entire line of text is stored in the variable REPLY.
+# read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars][-p prompt] [-t timeout] [-u fd]
