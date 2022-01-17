@@ -24,3 +24,5 @@ Kill and yank
     M-y Rotate the kill-ring, and yank the new top. You can only do this if the prior command is C-y or M-y.
 
 M is Meta key. For Max OS X Terminal you can enable "Use option as meta key" in Settings/Keyboard for that. For Linux its more complicated.
+
+http://www.gnu.org/software/bash/manual/bash.html#Readline-Interaction
